@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/fs-94-vite/assets/index-0fdf5317.js"></script>
-    <link rel="stylesheet" href="/fs-94-vite/assets/index-465ed43f.css">
+    <script type="module" crossorigin src="/fs-94-vite/assets/index-95b42e3c.js"></script>
+    <link rel="stylesheet" href="/fs-94-vite/assets/index-bd81bdc2.css">
   </head>
   <body>
     
@@ -36,12 +36,54 @@
         <h2 class="benefits-container__title">Benefits</h2>
     </div>
 </section>
+      <section class="cards">
+    <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide cards-item">Slide 1</div>
+                <div class="swiper-slide cards-item">Slide 2</div>
+                <div class="swiper-slide cards-item">Slide 3</div>
+                
+            </div>
+            <!-- If we need pagination -->
+            <ul class="swiper-pagination"></ul>
+        
+            <!-- If we need navigation buttons -->
+            <button type="button" class="swiper-btn swiper-button-prev"></button>
+            <button type="button" class="swiper-btn swiper-button-next"></button>
+        
+
+        </div>
+    </div>
+</section>
+
+<section class="custom-select">
+    <div class="container">
+        <select name="test" id="test" class="js-select">
+            <option value="1">Опція1</option>
+            <option value="2">Опція2</option>
+            <option value="3">Опція3</option>
+            <option value="4">Опція4</option>
+        </select>
+    </div>
+</section>
+
+<section class="custom-input-mask">
+    <div class="container">
+        <input type="text" class="js-inputmask">
+        <input type="text" class="js-inputmask-01">
+    </div>
+</section>
     </main>
     <!-- Loads the specified .html file -->
     <footer class="footer">
     футер
 </footer>
 
+    <script src="./js/vendor/nice-select2.js"></script>
     
   </body>
 </html>
