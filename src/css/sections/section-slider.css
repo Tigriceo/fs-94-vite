@@ -1,0 +1,14 @@
+
+.cards-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border: 10px solid red;
+  background-color: violet;
+}
+
+.swiper-btn.swiper-button-lock{
+    display: block;
+    opacity: 0.6;
+}

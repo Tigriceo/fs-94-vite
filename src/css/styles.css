@@ -6,9 +6,12 @@
 */
 @import url('../../node_modules/modern-normalize/modern-normalize.css');
 @import url('./reset.css');
+@import url('../../node_modules/swiper/swiper-bundle.min.css');
+@import url("../../node_modules/nice-select2/dist/css/nice-select2.css");
 @import url('./header.css');
 @import url('./sections/section-hero.css');
 @import url('./sections/section-benefits.css');
+@import url('./sections/section-slider.css');
 @import url('./footer.css');
 
 :root {
@@ -30,8 +33,13 @@
 .benefits {
 }
 .benefits-container {
-
 }
 .benefits-container__title {
-
 }
+
+@media (min-width: 428px) and (max-width: 1158px) and (max-height: 600px) {
+  .hero {
+    color: red;
+  }
+}
+
