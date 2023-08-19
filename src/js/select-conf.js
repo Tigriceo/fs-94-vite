@@ -13,7 +13,4 @@ function customSelect() {
         })
     }
 }
-
-window.addEventListener("load", (event) => {
-    customSelect();
-});
+customSelect();
